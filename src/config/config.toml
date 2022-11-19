@@ -1,3 +1,0 @@
-[DATABASE]
-URL_USERS = 'sqlite+aiosqlite:///database/users.db'
-URL_GAMES = 'sqlite+aiosqlite:///database/games.db'
