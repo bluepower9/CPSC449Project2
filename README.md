@@ -20,7 +20,7 @@
 ## **Testing the APIs**
 
 #### *Can test using user-id: 123abc and username: user1.  Username is not checked but included for redundancy*
-#### *includes games g1 and g2 as test games.  game_ids are shorted here for ease of use but are uuids in game*
+#### *includes games g1 and g2 as test games.  game_ids are shortend here for ease of use but are uuids in game*
 #### *make sure to use the correct user-id.  Supplying an incorrect user-id after you have logged in will result in resources not being found as username and user-id will not match. When using /game/create you will be able to create games even with an incorrect user-id but you will not be able to access them.*
 
 ### **Register Username & Password**
