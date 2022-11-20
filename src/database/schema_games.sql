@@ -7,8 +7,7 @@ CREATE TABLE games(
     username VARCHAR NOT NULL,
     guesses_rem INTEGER DEFAULT 6 NOT NULL,
     word VARCHAR NOT NULL,
-    finished INTEGER DEFAULT 0 NOT NULL,
-    FOREIGN KEY(user_id) REFERENCES users(user_id)
+    finished INTEGER DEFAULT 0 NOT NULL
 );
 
 DROP TABLE IF EXISTS guesses;
